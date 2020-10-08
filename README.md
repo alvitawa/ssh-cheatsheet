@@ -20,24 +20,30 @@ Log in to das5
 1. Modify driver.py, set ON_DAS5=True
 2. Copy updated driver.py to DAS5:
 
+    ```
     scp driver.py kics2001@fs1.das5.liacs.nl:
+    ```
 
 3. Log in to das5 and run (once):
 
+    ```
     chmod +x driver.py
-
+    ```
 4. You can build and test the files when logged in to DAS5:
 
+    ```
     make
     module load prun
     ./driver.py
+    ```
 
 4. Or you can build files locally and copy the binaries to DAS5:
 
+    ```
     make
     scp k_nearest_seq kics2001@fs1.das5.liacs.nl:
     ssh kics2001@fs1.das5.liacs.nl "module load prun; ./driver.py"
-
+    ```
 
 ## Here is a script that will build the binaries locally, upload all of them to DAS5 and test them there
 
