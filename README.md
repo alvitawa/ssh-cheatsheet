@@ -1,5 +1,17 @@
     
-Connect to UvA VPN
+
+Guide/cheatsheet for working on the optimization lab with DAS5.
+
+You should already have a ssh user assigned to you and a password.
+
+Replace all usage of `kics2001` in this guide with your own username.
+(And you may wish to replace `fs1.das5.liacs.nl` as well)
+
+## Connect to UvA VPN!
+
+https://student.uva.nl/content/az/vpn-toegang-tot-het-uva-netwerk/download-uvavpn-software/uvavpn-software-downloaden.html
+
+## Setup
 
 Make key and register it with DAS5:
 
